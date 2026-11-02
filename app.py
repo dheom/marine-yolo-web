@@ -51,7 +51,7 @@ st.sidebar.markdown("---")
 alert_placeholder = st.sidebar.empty() 
 
 # 메인 화면에 실시간 영상을 출력할 윈도우 영역 생성
-frame_window = st.image([], use_container_width=True)
+frame_window = st.image([], width='stretch')
 
 # ==============================================================================
 # [구동 안내서 반영] 4. 기능 사용 순서 및 추론 프로세스 (4p 및 5p 구현 범위 적용)
